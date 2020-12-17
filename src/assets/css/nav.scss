@@ -1,0 +1,51 @@
+/* ------------- Global Navigation ---------------- */
+.gnav {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  .gnav__title {
+    .gnav__titlename {
+      background: #fff;
+      border-radius: 10px;
+      color: #444;
+      display: block;
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      font-size: 20px;
+      letter-spacing: 7px;
+      margin: 7px 10px;
+      padding: 9px 10px;
+    }
+    .gnav__tel {
+      border-bottom: 1px #36c solid;
+      color: #36c;
+      font-size: 16px;
+      margin: 0 10px 0;
+      padding: 10px 0 0;
+      .icon {
+        margin: 2px 5px 0 0;
+      }
+    }
+  }
+  .gnav__buttons {
+    margin: 6px 6px 0 0;
+    position: relative;
+    .gnav__buttons_button {
+      display: block;
+      line-height: 15px;
+      padding: 5px 38px 5px 10px;
+      text-align: right;
+      .icon {
+        font-size: 26px;
+        right: 7px;
+        top: 7px;
+      }
+    }
+    .gnav__mypage_button {
+      padding: 8px 10px;
+      i {
+        font-size: 16px;
+      }
+    }
+  }
+}
