@@ -35,10 +35,10 @@ import React from 'react';
 // const Typography = React.lazy(() => import('./admin/sample/theme/typography/Typography'));
 // const Widgets = React.lazy(() => import('./admin/sample/widgets/Widgets'));
 //
-const Dashboard = React.lazy(() => import('./admin/dashboard/Dashboard'));
-const Wallet = React.lazy(() => import('./admin/wallet/Wallet'));
-const Transaction = React.lazy(() => import('./admin/transaction/Transaction'));
-const Profile = React.lazy(() => import('./admin/profile/Profile'));
+const Dashboard = React.lazy(() => import('./dashboard/Dashboard'));
+const Wallet = React.lazy(() => import('./wallet/Wallet'));
+const Transaction = React.lazy(() => import('./transaction/Transaction'));
+const Profile = React.lazy(() => import('./profile/Profile'));
 // const Users = React.lazy(() => import('./admin/users/Users'));
 // const User = React.lazy(() => import('./admin/users/User'));
 
